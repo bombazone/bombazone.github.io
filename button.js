@@ -8,6 +8,6 @@ $('#increase').click(() => {
 });
 
 $('#decrease').click(() => {
-  counter++;
+  counter--;
   $('h2').text(counter);
 });
